@@ -1,3 +1,7 @@
+* {
+    font-family: 'Habibi',;
+}
+
 body {
     margin: 0;
 }
@@ -83,31 +87,41 @@ footer p {
     color: white;
 }
 
-.login {
-    background-color: #52DC13;
-    opacity: 0.64;
+.login{
+    background-color: #53dc13bc;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
     width: 133px;
     height: 36px;
+    z-index: 1;
     border-radius: 12px;
-    position: absolute;
-    top: 38%;
+    top: 30%;
     right: 30px;
-    text-align: center;
-    box-shadow: 2px 2px 5px;
-
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    font-size: 15px;
 }
 
-.login p {
+.login span {
+    display: inline-block;
     position: relative;
-    top: -8px;
-    left: 10px;
+    left: 1px;
+}
+
+.loginlink {
+    text-decoration: none;
 }
 
 #lock {
-    position: absolute;
-    top: 42%;
-    left: 1375px;
+    position: relative;
+    left: 2px;  
     color: white;
+    font-size: 20px;
 }
 
 .menu {
@@ -178,37 +192,3 @@ a:visited {color: white;}
     z-index: 1;
 }
 
-.sec-sau {
-    position: absolute;
-    width: 20vw;
-    top: 30%;
-    left: 10%;
-}
-
-.img1 {
-    position: absolute;
-    width: 20vw;
-    top: 80%;
-    left: 10%;
-}
-
-.img2 {
-    position: absolute;
-    width: 20vw;
-    top: 30%;
-    left: 39%;
-}
-
-.img3 {
-    position: absolute;
-    width: 35vw;
-    right: 32%;
-    top: 85%;
-}
-
-.img4 {
-    position: absolute;
-    width: 25vw;
-    right: 4%;
-    top: 33%;
-}
